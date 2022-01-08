@@ -1,0 +1,25 @@
+{
+	"dependencies": {
+		"express": "^4.17.2"
+	},
+	"name": "quranic-api",
+	"description": "This is a public API providing Quran audio of various reciters",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nuriddinislamov/quranic-API.git"
+	},
+	"author": "Nuriddin Islamov",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nuriddinislamov/quranic-API/issues"
+	},
+	"homepage": "https://github.com/nuriddinislamov/quranic-API#readme",
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
