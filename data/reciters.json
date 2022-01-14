@@ -1,0 +1,32 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"name": "Mahir al-Muaiqly",
+			"fullName": "Maher Ibn Hamd Ibn Mueaql Al Mueaqly Al Baloui",
+			"bornYear": 1969,
+			"bio": "Maher Al Mueaqly grew up in Madinah. He earned a professional degree in mathematics and joined the educational stuff of Balat Al Shohada’ School and later became the students adviser in Abd Al Majid School of Makkah.\n\nIn 1425, Maher Al Mueaqly got a master in Shariaa from Umm Al Qura University. Lecturer in the Shariaa and Islamic Sciences Faculty, Maher was leading prayers in Abd Arrahmane Assaadi Mosque, Makkah. From 1416H to 1427, Maher Al Mueaqly was imam at the Prophet’s mosque and the Holy Mosque."
+		},
+		{
+			"id": 2,
+			"name": "Mishary Rashid Alafasy",
+			"fullName": "Mishary bin Rashid Alafasy",
+			"bornYear": 1976,
+			"bio": "Shaikh Mishary Bin Rashid Alafasy is a world-renowned Qari (Qur’an reciter), imam, daee (preacher) and a Nasheed artist from Kuwait. Shaikh Mishary Alafasy is the Imam of the Grand Mosque of Kuwait also called Masjid Al-Kabir and leads the Tarawih prayers in Ramadan every year. He works for the Kuwait Ministry of Awqaf and Islamic Affairs." 
+		},
+		{
+			"id": 3,
+			"name": "Abdul Rahman Al-Sudais",
+			"fullName": "Abdul Rahman Ibn Abdul Aziz al-Sudais",
+			"bornYear": 1960,
+			"bio": "Is the imam of the Grand Mosque Masjid al-Haram in Makkah, Saudi Arabia; the president of the General Presidency for the Affairs of the Two Holy Mosques; a renowned Qāriʾ (reciter of the Qur'an); and was the Dubai International Holy Qur'an Award's 'Islamic Personality Of the Year' in 2005. Al-Sudais has preached Islam's opposition to 'explosions and terrorism, and has called for peaceful inter-faith dialogue, but also been sharply criticized for vilifying non-Muslims and especially Jews in his sermons. He has denounced the treatment of Palestinians by Israeli settlers and the state of Israel, and called for more aid to be sent to Palestinians. He has also been noted for identifying women's un-Islamic behavior as in part responsible for the winter 2006 drought in Saudi Arabia. In 2016, he delivered the very important Hajj sermon to a multitude of pilgrims gathered at Arafat after prayers." 
+		},
+		{
+			"id": 4,
+			"name": "Yasser Al-Dosari",
+			"fullName": "Yasser Ibn Rashed Ibn Houseine Al Ouadaani Al Dossari",
+			"bornYear": 1981,
+			"bio": "He’s known as one of the most famous preachers and Quran Readers in the Arabic and Islamic World. He is Imam and Orator in Dakhil Mosque in Riyadh and the General secretary of Prince Sultan University for teaching Quran to the Saudi Arabian Defense forces. Yasser Al-Dosari has achieved a very high level of science, as he was able to obtain a Bachelor degree from the Faculty of Sharia Imam Muhammad bin Saud Islamic University in 1424, then a Master degree, and finalized his academic curriculum with a PHD in comparative jurisprudence Institute of the Judiciary at same university. Yasser Al Dosari completed memorizing the Quran at the age of 15, and his talent appeared in reading the Quran remarkably, his fresh voice was testified by the experts of Quran, like Sheikh Bakri Tarabshi, and Sheikh Ibrahim Al Akhdar, and as a matter of fact, he issued a number of audio tapes which includes the Quran Taraweeh prayers, 51 Qur'anic version, plus 6 varied ones." 
+		}
+	]
+}
