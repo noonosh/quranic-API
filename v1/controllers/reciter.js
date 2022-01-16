@@ -1,4 +1,4 @@
-import jsonReader from '../../utils/readFromFile.js';
+import jsonReader from '../../lib/readFromFile.js';
 
 const getReciter = (req, res, next) => {
 	// const data = readFromFile('');
