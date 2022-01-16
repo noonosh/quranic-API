@@ -3,6 +3,6 @@ import { getSurah } from '../controllers/surah.js';
 
 const router = express.Router();
 
-router.get('/', getSurah);
+router.get('/:id', getSurah);
 
 export default router;

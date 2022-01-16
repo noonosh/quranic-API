@@ -1,9 +1,12 @@
 const getSurah = (req, res) => {
-	let requestedSurahNumber = 0 + req.params.id;
-	res.json({
-		status: 'ok',
+	// Format the number
+	let requestedSurahNumber =
+		req.params.id < 100 ? '0' + req.params.id : req.params.id;
+
+	res.status(200).send({
+		ok: true,
 		data: {
-			details: [{ _id: null }],
+			number: requestedSurahNumber,
 		},
 	});
 };
