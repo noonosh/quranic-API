@@ -1,18 +1,8 @@
 import jsonReader from '../../lib/readFromFile.js';
+import fs from 'fs';
 
-const getReciter = (req, res, next) => {
-	// const data = readFromFile('');
-
-	const data = jsonReader(
-		'/Users/nuriddin/Documents/dev/quranic-API/data/reciters.json',
-		(err, customer) => {
-			if (err) {
-				console.log(err);
-				return;
-			}
-			console.log(customer.address); // => "Infinity Loop Drive"
-		},
-	);
+const getReciters = (req, res, next) => {
+	const data = JSON.parse(fs.readFileSync('./data/reciters.json'));
 
 	if (typeof data === 'undefined') {
 		res.status(500).send({
@@ -27,4 +17,4 @@ const getReciter = (req, res, next) => {
 	});
 };
 
-export { getReciter };
+export { getReciters };

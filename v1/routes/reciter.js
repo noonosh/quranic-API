@@ -1,8 +1,8 @@
 import express from 'express';
-import { getReciter } from '../controllers/reciter.js';
+import { getReciters } from '../controllers/reciter.js';
 
 const router = express.Router();
 
-router.get('/', getReciter);
+router.get('/', getReciters);
 
 export default router;
