@@ -1,16 +1,19 @@
 import fs from 'fs';
 
 const getSurah = (req, res) => {
-	// Format the number
-	let requestedSurahNumber =
-		req.params.id < 100 ? '0' + req.params.id : req.params.id;
-
 	res.status(200).send({
 		ok: true,
 		data: {
-			number: requestedSurahNumber,
+			number: fetchSurahQuery(req).id,
+			reciter: fetchSurahQuery(req).reciter,
 		},
 	});
+};
+
+const fetchSurahQuery = req => {
+	let id = req.params.id;
+	let reciter = req.params.reciter;
+	return { id, reciter };
 };
 
 const allSurahs = (req, res, next) => {
