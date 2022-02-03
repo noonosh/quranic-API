@@ -25,7 +25,11 @@ const fetchSurahQuery = q => {
 
 	const reciters = getDirectories('./data/');
 
-	if (id.length != 3 || !reciters.includes(reciter)) {
+	if (
+		0 >= parseInt(id) >= 115 ||
+		id.length != 3 ||
+		!reciters.includes(reciter)
+	) {
 		return false;
 	}
 
@@ -41,8 +45,6 @@ const getSurah = (req, res) => {
 		return;
 	}
 
-	renameFiles('./data/alafasy/');
-
 	res.status(200).send({
 		ok: true,
 		data: {
@@ -56,6 +58,7 @@ const downloadSurah = (req, res) => {
 	let reciter = fetchSurahQuery(req).reciter;
 	let surahID = fetchSurahQuery(req).id;
 
+	renameFiles(`./data/${reciter}/`);
 	const file = `./data/${reciter}/${surahID}.mp3`;
 
 	res.status(200).download(file);
