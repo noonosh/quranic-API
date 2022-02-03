@@ -1,6 +1,7 @@
 [
 	{
 		"id": 1,
+		"apiEndpoinKey": "almuaiqly",
 		"name": "Mahir al-Muaiqly",
 		"fullName": "Maher Ibn Hamd Ibn Mueaql Al Mueaqly Al Baloui",
 		"bornYear": 1969,
@@ -8,6 +9,7 @@
 	},
 	{
 		"id": 2,
+		"apiEndpoinKey": "alafasy",
 		"name": "Mishary Rashid Alafasy",
 		"fullName": "Mishary bin Rashid Alafasy",
 		"bornYear": 1976,
@@ -15,6 +17,7 @@
 	},
 	{
 		"id": 3,
+		"apiEndpoinKey": "alsudais",
 		"name": "Abdul Rahman Al-Sudais",
 		"fullName": "Abdul Rahman Ibn Abdul Aziz al-Sudais",
 		"bornYear": 1960,
@@ -22,6 +25,7 @@
 	},
 	{
 		"id": 4,
+		"apiEndpoinKey": "aldosari",
 		"name": "Yasser Al-Dosari",
 		"fullName": "Yasser Ibn Rashed Ibn Houseine Al Ouadaani Al Dossari",
 		"bornYear": 1981,
