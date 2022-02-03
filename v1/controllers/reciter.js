@@ -1,4 +1,3 @@
-import jsonReader from '../../lib/readFromFile.js';
 import fs from 'fs';
 
 const getReciters = (req, res, next) => {
